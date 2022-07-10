@@ -1,0 +1,24 @@
+.gerak{
+  position: relative;
+  left: 300px;
+  z-index: 2;
+}
+
+.figure{
+  background-color: gray;
+}
+
+.login,
+.image {
+  z-index: 1;
+  min-height: 100vh;
+}
+.bg-image {
+  background-image: url('https://images.unsplash.com/photo-1573496773905-f5b17e717f05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80');
+  background-size: cover;
+  background-position: center center;
+}
+.invalid-feedback
+{
+  margin-left: 25px;
+}
